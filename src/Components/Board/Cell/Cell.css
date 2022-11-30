@@ -1,0 +1,13 @@
+.Cell {
+    /* height: 50px; */
+    /* width: 50px; */
+	border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    font-size: 60px;
+
+}
