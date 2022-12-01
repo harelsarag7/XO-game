@@ -193,7 +193,6 @@ function Board(): JSX.Element {
         if(turn){
             return
         }
-        setTurn(true)
             
             const index = Number(e.target.id) - 1;
             if(cells[index].inside === ""){
@@ -210,6 +209,7 @@ function Board(): JSX.Element {
                     
                     setCells([...cells])
                     setTrying(!trying)
+                    setTurn(true);
 
                     ComputerTurn()
                 } else {
